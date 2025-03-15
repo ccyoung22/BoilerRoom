@@ -1,6 +1,6 @@
 "use client";
 import styles from "./Icons.module.css";
-import { motion, useScroll, useTransform, useSpring } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 interface IconsProps {
