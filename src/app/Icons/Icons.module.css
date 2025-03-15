@@ -1,0 +1,10 @@
+.iconContainer {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  font-size: 20vh;
+  font-family: "BoilerRoom";
+}

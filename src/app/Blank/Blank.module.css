@@ -1,0 +1,25 @@
+.container {
+  background-color: black;
+  color: white;
+  height: 160vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+}
+
+.Icon1 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.Icon2 {
+  grid-row: 5;
+  scale: 60%;
+  grid-column: 3;
+}
+
+.Icon3 {
+  grid-row: 4;
+  grid-column: 4;
+}
