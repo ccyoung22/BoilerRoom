@@ -19,6 +19,8 @@
 .textContainer {
   font-family: "AN";
   overflow: visible;
-  font-size: 2vh;
+  font-size: 2.2vh;
+  letter-spacing: 0.03em;
+  line-height: 140%;
   width: 60vw;
 }

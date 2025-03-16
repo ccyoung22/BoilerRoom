@@ -1,8 +1,148 @@
 .container {
-  background-color: black;
-  color: white;
-  height: 100vh;
+  position: relative;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
+  clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.stickyFooter {
+  position: fixed;
+  background-color: red;
+  height: 700px;
+  width: 100%;
+  bottom: 0;
+}
+
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 100%;
+  font-family: "BoilerRoom";
+  font-size: 3vh;
+}
+
+.smiley {
+  font-family: monospace;
+  font-size: 3.2vh;
+  padding-left: 1vh;
+  line-height: 0.1;
+}
+
+.mainText {
+  width: 50%;
+}
+
+.description {
+  font-family: "AN";
+  font-size: 1.9vh;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 5;
+  right: 10;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 750px;
+    background-color: rgb(255, 30, 0);
+  }
+
+  .stickyFooter {
+    height: 750px;
+    background-color: rgb(255, 30, 0);
+  }
+
+  .contentContainer {
+    height: 750px;
+    background-color: rgb(255, 30, 0);
+  }
+
+  .titleText {
+    font-size: 18vw; /* Reduce font size for smaller screens */
+    line-height: 10vw; /* Adjust line-height */
+    margin-bottom: 1vh;
+    margin-left: 2vw;
+  }
+
+  .titleTop {
+    font-size: 17vw; /* Adjust title font size */
+    margin-bottom: 3vh;
+  }
+
+  .description {
+    font-size: 1vh; /* Adjust description font size */
+  }
+
+  .contactText {
+    font-size: 1.8vh; /* Adjust font size for smaller screens */
+    padding: 0 10vh;
+    margin-bottom: 5vh;
+    grid-row: 3;
+    padding: 12vh 6vh 8vh 8vh;
+    grid-column: 2/5;
+  }
+
+  .contactDetails {
+    display: flex;
+    font-size: 1.5vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .descriptionContainer {
+    margin-right: 1vw;
+  }
+
+  .bioText {
+    padding-bottom: 2vh;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .titleText {
+    font-size: 18vw; /* Reduce font size for smaller screens */
+    line-height: 10vw; /* Adjust line-height */
+    margin-bottom: 1vh;
+    margin-left: 2vw;
+  }
+
+  .titleTop {
+    font-size: 17vw; /* Adjust title font size */
+    margin-bottom: 3vh;
+  }
+
+  .description {
+    font-size: 1vh; /* Adjust description font size */
+  }
+
+  .contactText {
+    font-size: 1.8vh; /* Adjust font size for smaller screens */
+    padding: 0 10vh;
+    margin-bottom: 5vh;
+    grid-row: 3;
+    padding: 12vh 8vh 24vh 18vh;
+    grid-column: 2/5;
+  }
+
+  .contactDetails {
+    display: flex;
+    font-size: 1.5vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .descriptionContainer {
+    margin-right: 1vw;
+  }
+
+  .bioText {
+    padding-bottom: 2vh;
+  }
 }

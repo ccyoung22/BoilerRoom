@@ -30,7 +30,6 @@ export default function Home() {
       <WhyMe />
       <TechStack />
       <WhyBoilerRoom />
-      <Summary />
       <Footer />
     </main>
   );
