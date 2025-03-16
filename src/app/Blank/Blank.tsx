@@ -5,7 +5,7 @@ export default function Blank() {
   return (
     <div className={styles.container}>
       <div className={styles.Icon1}>
-        <Icons icon="☺" />
+        <Icons />
       </div>
       {/* <div className={styles.Icon2}>
         <Icons icon="☺" />

@@ -25,8 +25,9 @@ export default function Home() {
       <Hero />
       <Blank />
       <Intro />
-      <WhyBoilerRoom />
+      <Blank />
       <WhyMe />
+      <WhyBoilerRoom />
       <Summary />
       <Footer />
     </main>

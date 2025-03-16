@@ -4,5 +4,21 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: visible;
+}
+
+.titleContainer {
+  font-family: "BoilerRoom";
+  margin-bottom: 10vh;
+  margin-top: 20vh;
+  font-size: 4vh;
+}
+
+.textContainer {
+  font-family: "AN";
+  overflow: visible;
+  font-size: 2.3vh;
+  width: 70vw;
 }

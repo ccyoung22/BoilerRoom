@@ -32,7 +32,7 @@ export default function Intro() {
         })}
       </p>
       <div className={styles.Icon1}>
-        <Icons icon="☺" />
+        <Icons />
       </div>
     </div>
   );

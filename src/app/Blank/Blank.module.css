@@ -1,9 +1,7 @@
 .container {
-  background-color: black;
+  background-color: transparent;
   color: white;
-
-  height: 40vh;
-  width: auto;
+  height: 10vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;

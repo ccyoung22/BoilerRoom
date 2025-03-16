@@ -1,20 +1,25 @@
 .container {
   background-color: black;
-  color: white;
+  color: rgb(255, 0, 0);
   height: 110vh;
-
   display: flex;
   align-items: center;
-
   justify-content: center;
 }
 
 .Icon1 {
   font-family: monospace;
+
+  height: 20vh;
+  position: absolute;
+  pointer-events: none;
+  z-index: 999;
+  right: 0;
+  display: flex;
 }
 
 .aboutText {
-  font-size: 4vh;
+  font-size: 5vh;
   font-family: "BoilerRoom";
   padding: 10vw 14vw 10vw 14vw;
   line-height: 1.2;
@@ -34,7 +39,7 @@
   position: absolute;
   opacity: 0.6;
   color: transparent; /* Transparent fill */
-  text-shadow: 0 0 0.7vh rgb(255, 255, 255);
+  text-shadow: 0 0 0.7vh rgb(255, 0, 0);
 }
 
 @media (max-width: 768px) {
