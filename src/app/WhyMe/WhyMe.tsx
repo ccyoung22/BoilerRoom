@@ -1,6 +1,6 @@
 "use client";
 import { useScroll, useTransform, motion, useSpring } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 import styles from "./WhyMe.module.css";
 
 export default function WhyMe() {
