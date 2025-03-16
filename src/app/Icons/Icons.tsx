@@ -1,6 +1,6 @@
 "use client";
 import styles from "./Icons.module.css";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 interface IconsProps {
@@ -8,22 +8,19 @@ interface IconsProps {
 }
 
 export default function Icons({ icon }: IconsProps) {
-  const element = useRef(null);
-
-  const { scrollYProgress } = useScroll({
-    target: element,
-    offset: ["start start", "end end"],
-  });
-
-  // const y = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
-
-  const scale = useTransform(scrollYProgress, [0, 0.5, 1], [4, 2, 1]);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <motion.div
-      style={{ scale: scale }}
+      ref={ref}
       className={styles.iconContainer}
-      ref={element}
+      initial={{ y: "0%" }}
+      animate={
+        isInView
+          ? { y: "-1000%", transition: { duration: 15, ease: "easeOut" } }
+          : {}
+      }
     >
       {icon}
     </motion.div>

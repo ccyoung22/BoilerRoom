@@ -7,12 +7,12 @@ export default function Blank() {
       <div className={styles.Icon1}>
         <Icons icon="☺" />
       </div>
-      <div className={styles.Icon2}>
+      {/* <div className={styles.Icon2}>
         <Icons icon="☺" />
       </div>
       <div className={styles.Icon3}>
         <Icons icon="☺" />
-      </div>
+      </div> */}
     </div>
   );
 }
