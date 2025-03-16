@@ -25,8 +25,8 @@ export default function WhyBoilerRoom() {
       <motion.div
         ref={titleRef}
         style={{
-          y: springY, // Disable scroll animation on mobile
-          letterSpacing, // Disable letter-spacing animation on mobile
+          y: springY,
+          letterSpacing,
         }}
         className={styles.titleContainer}
       >
