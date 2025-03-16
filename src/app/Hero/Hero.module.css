@@ -9,3 +9,17 @@
   font-size: 6vh;
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .container {
+    font-size: 3vh;
+    height: 160vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    font-size: 4vh;
+    height: 120vh;
+  }
+}
