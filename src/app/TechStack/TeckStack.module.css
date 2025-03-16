@@ -1,0 +1,74 @@
+.container {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleContainer {
+  width: 50%;
+  margin-top: 30vh;
+  border-style: solid;
+  height: 10vh;
+  overflow: hidden;
+  position: relative;
+  border-radius: 3vh;
+  border-color: rgb(255, 30, 0);
+  box-shadow: 0 0 10px rgb(255, 30, 0), 0 0 20px rgb(255, 30, 0),
+    0 0 30px rgb(255, 30, 0), /* Outer glow */ inset 0 0 10px rgb(255, 30, 0); /* Inner glow */
+}
+
+.title {
+  font-family: "BoilerRoom";
+  font-size: 8vh;
+  margin: 0;
+  background-color: transparent;
+  text-align: center;
+  animation: scrollText 3s linear infinite; /* Set to a smooth, infinite animation */
+  color: transparent;
+  text-shadow: 0 0 5px rgba(255, 30, 0, 1), 0 0 10px rgba(255, 30, 0, 0.8),
+    0 0 15px rgb(255, 30, 0);
+}
+
+.text {
+  font-family: "AN";
+  margin-top: 12vh;
+  font-size: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-family: "BoilerRoom";
+  font-size: 2.5vh;
+}
+
+.listItem {
+  padding-top: 2vh;
+}
+
+.iconContainer {
+  font-family: monospace;
+
+  height: 20vh;
+  position: absolute;
+  pointer-events: none;
+  z-index: 999;
+  left: 0;
+
+  display: flex;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move off-screen to the left */
+  }
+}

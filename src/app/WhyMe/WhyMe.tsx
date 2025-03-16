@@ -68,7 +68,7 @@ export default function WhyMe() {
           both technical and problem-solving skills. Every week we worked in new
           teams, from a range of backgrounds, with a focus on agile teamwork,
           and learning how to learn. For our final project, my team built
-          {`"Flock"`} a community-focused app that connects people with shared
+          {` "Flock"`} a community-focused app that connects people with shared
           interests—a concept that aligns with Boiler {`Room's`} mission of
           fostering community through digital platforms.
         </p>

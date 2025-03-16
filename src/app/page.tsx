@@ -10,6 +10,7 @@ import WhyMe from "./WhyMe/WhyMe";
 import Summary from "./Summary/Summary";
 import Footer from "./Footer/Footer";
 import Blank from "./Blank/Blank";
+import TechStack from "./TechStack/TechStack";
 
 export default function Home() {
   useEffect(() => {
@@ -27,6 +28,7 @@ export default function Home() {
       <Intro />
       <Blank />
       <WhyMe />
+      <TechStack />
       <WhyBoilerRoom />
       <Summary />
       <Footer />
