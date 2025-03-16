@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Boiler Room Cover Letter",
   description: "Junior Developer Role Application Cover Letter",
+  icons: {
+    icon: "/favicon.ico", // Link to your favicon
+  },
 };
 
 export default function RootLayout({

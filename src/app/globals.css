@@ -31,3 +31,10 @@
   background-color: red;
   border-radius: 4px; /* Optional: for rounded edges */
 }
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling on mobile */
+  }
+}

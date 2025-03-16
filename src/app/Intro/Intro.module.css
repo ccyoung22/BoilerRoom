@@ -48,7 +48,7 @@
   }
 
   .aboutText {
-    font-size: 4.8vh; /* Smaller font for mobile */
+    font-size: 3vh; /* Smaller font for mobile */
     padding: 30px; /* Much less padding on mobile */
   }
 

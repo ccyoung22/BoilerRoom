@@ -17,10 +17,7 @@ export default function Footer() {
               </p>
               <br />
               <br />
-              <p>
-                Thank You for your time. Looking forward to potentially joining
-                the Boiler Room community.
-              </p>
+              <p>Thank You for your time.</p>
             </div>
           </div>
         </div>

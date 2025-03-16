@@ -72,3 +72,55 @@
     transform: translateX(-100%); /* Move off-screen to the left */
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    font-size: 2.5vh;
+    height: 200vh;
+    margin-top: 30vh;
+  }
+
+  .textContainer {
+    width: 80vw;
+  }
+
+  .titleContainer {
+    width: 80%;
+    height: 8vh;
+  }
+
+  .title {
+    font-size: 4vh;
+  }
+
+  .text {
+    width: 80%;
+  }
+  .heading {
+    font-size: 1.8vh;
+    text-align: center;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    font-size: 2.5vh;
+    height: 120vh;
+    margin-top: 30vh;
+  }
+
+  .textContainer {
+    width: 80vw;
+  }
+
+  .titleContainer {
+    width: 80%;
+    height: 7vh;
+  }
+
+  .title {
+    font-size: 4vh;
+    padding: 1vh;
+  }
+}
