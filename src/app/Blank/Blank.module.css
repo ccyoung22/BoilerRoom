@@ -2,7 +2,7 @@
   background-color: black;
   color: white;
 
-  height: 20vh;
+  height: 40vh;
   width: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

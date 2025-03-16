@@ -18,7 +18,7 @@ export default function Icons({ icon }: IconsProps) {
       initial={{ y: "0%" }}
       animate={
         isInView
-          ? { y: "-1000%", transition: { duration: 15, ease: "easeOut" } }
+          ? { y: "-1000%", transition: { duration: 18, ease: "easeOut" } }
           : {}
       }
     >
