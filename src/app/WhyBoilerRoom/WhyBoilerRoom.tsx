@@ -44,21 +44,18 @@ export default function WhyBoilerRoom() {
         <br />
         <p>
           {" "}
-          I value your commitment to diversity and inclusivity, not just as
-          policy but as the foundation of your work.{" "}
-          {`I'm eager to contribute to `}
-          an environment that champions creating spaces where everyone feels
-          welcome and represented.
+          I also value your focus on diversity and inclusivity—not just as a
+          policy but as the foundation of your work. {`I'm`} eager to contribute
+          to an environment that fosters representation and belonging.
         </p>
         <br />
         <p>
           Personal development is incredibly important to me as a junior
-          developer. {`I'm`} always striving to improve and grow in everything I
-          do, and {`I'm`} specifically looking for an environment where I can
-          receive constructive feedback, participate in peer reviews, and
-          continually push myself. The opportunity to work in a hybrid
-          environment with a team that celebrates creativity and supports each
-          other is exactly what {` I'm `}looking for.
+          developer. I thrive in environments where I can receive constructive
+          feedback, participate in peer reviews, and continually push myself.
+          The chance to work with a team that celebrates creativity while
+          building technology that connects people through music and culture is
+          exactly what {`I'm`} looking for.
         </p>
       </motion.div>
     </div>

@@ -9,15 +9,11 @@ export default function Footer() {
             <div className={styles.mainText}>
               <p>
                 {`I'd`} love to bring my combination of creative thinking and
-                technical skills to your development team. <br />
+                technical skills to Boiler {`Room’s`} development team. <br />
                 <br />
-                {`I'm`} excited about the possibility of contributing to your
-                digital platforms and helping build technology that connects
-                people through music and culture.
+                Thank you for your time — I look forward to the possibility of
+                contributing to your mission.
               </p>
-              <br />
-              <br />
-              <p>Thank You for your time.</p>
             </div>
           </div>
         </div>

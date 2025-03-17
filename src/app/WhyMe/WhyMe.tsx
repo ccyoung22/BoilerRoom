@@ -44,9 +44,9 @@ export default function WhyMe() {
         <br />
         <p>
           {" "}
-          After uni the business became my full-time job and {`I’ve`} been
-          running it ever since. {`It's`} given me incredible opportunities to
-          travel, collaborate with diverse and interesting people, and
+          After University the business became my full-time job and {`I’ve`}{" "}
+          been running it ever since. {`It's`} given me incredible opportunities
+          to travel, collaborate with diverse and interesting people, and
           constantly challenge myself. Most importantly, it taught me how to
           adapt quickly, manage shifting priorities, and continually learn in an
           ever-changing environment—skills that translate perfectly to the
@@ -55,10 +55,10 @@ export default function WhyMe() {
         <br />
         <p>
           After carrying the business through a few challenging years, I craved
-          a new direction. Serendipitously, I worked along side a developer on a
-          project last year and was immediately captivated by how creative web
-          development is. I started teaching myself some HTML and CSS and I was
-          hooked, I knew {`I’d`} found my next step.{" "}
+          a new direction. My transition into tech was serendipitous, after
+          working alongside a developer last year, I became captivated by the
+          creative potential of web development. I started learning HTML and CSS
+          on my own, and I was hooked. I knew I had found my next step.{" "}
         </p>
         <br />
         <p>

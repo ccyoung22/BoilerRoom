@@ -6,7 +6,7 @@ import { useScroll, motion, useTransform, MotionValue } from "framer-motion";
 import { useRef } from "react";
 
 const paragraph =
-  "When I saw your Junior Full Stack Developer role come up, I knew I had to apply. I’ve followed Boiler Room for years and I love what you do. I feel an authentic connection with your mission to champion creativity and build communities, and I would love to be a part of it.";
+  "When I saw your Junior Full Stack Developer role come up, I knew I had to apply. I’ve followed Boiler Room for years and have always admired your work. Your mission to champion creativity and build communities resonates with me, and I would love to be a part of it.";
 
 const words = paragraph.split(" ");
 
