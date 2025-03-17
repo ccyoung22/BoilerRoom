@@ -52,8 +52,13 @@ export default function WhyBoilerRoom() {
         </p>
         <br />
         <p>
-          The opportunity to work in a hybrid environment with a team that
-          celebrates creativity and supports each other is exactly what {` I'm`}
+          Personal development is incredibly important to me as a junior
+          developer. {`I'm`} always striving to improve and grow in everything I
+          do, and {`I'm`} specifically looking for an environment where I can
+          receive constructive feedback, participate in peer reviews, and
+          continually push myself. The opportunity to work in a hybrid
+          environment with a team that celebrates creativity and supports each
+          other is exactly what {` I'm`}
           looking for.
         </p>
       </motion.div>
