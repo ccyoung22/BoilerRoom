@@ -37,12 +37,17 @@ export default function TechStack() {
           <li className={styles.listItem}>
             Familiarity with SQL databases and integrating with third-party APIs{" "}
           </li>
+          <li>
+            Experience collaborating in teams using Git workflow, creating pull
+            requests, and resolving merge conflicts
+          </li>
           <li className={styles.listItem}>
             Design background with a strong interest in developing <br />
             professional-standard UX/UI skills
           </li>
           <li className={styles.listItem}>
-            Comfortable with standard developer tools including Git and GitHub
+            Comfortable with standard developer tools including Git, GitHub and
+            VS Code
           </li>
         </ul>
       </motion.div>

@@ -53,7 +53,7 @@ export default function WhyBoilerRoom() {
         <br />
         <p>
           The opportunity to work in a hybrid environment with a team that
-          celebrates creativity and supports each other is exactly what {`I'm`}
+          celebrates creativity and supports each other is exactly what {` I'm`}
           looking for.
         </p>
       </motion.div>
