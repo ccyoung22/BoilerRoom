@@ -58,8 +58,7 @@ export default function WhyBoilerRoom() {
           receive constructive feedback, participate in peer reviews, and
           continually push myself. The opportunity to work in a hybrid
           environment with a team that celebrates creativity and supports each
-          other is exactly what {` I'm`}
-          looking for.
+          other is exactly what {` I'm `}looking for.
         </p>
       </motion.div>
     </div>

@@ -37,7 +37,7 @@ export default function TechStack() {
           <li className={styles.listItem}>
             Familiarity with SQL databases and integrating with third-party APIs{" "}
           </li>
-          <li>
+          <li className={styles.listItem}>
             Experience collaborating in teams using Git workflow, creating pull
             requests, and resolving merge conflicts
           </li>
