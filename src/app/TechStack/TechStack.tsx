@@ -39,7 +39,9 @@ export default function TechStack() {
           </li>
           <li className={styles.listItem}>
             Experience collaborating in teams using Git workflow, creating pull
-            requests, and resolving merge conflicts
+            requests,
+            <br />
+            and resolving merge conflicts
           </li>
           <li className={styles.listItem}>
             Design background with a strong interest in developing <br />
